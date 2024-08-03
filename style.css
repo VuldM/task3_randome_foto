@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#container{
+    margin-top: 50px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.user{
+    padding: 0 0 10px 0;
+}
+.likes{
+    display: flex;
+    align-items: center;
+}
+.like{
+    margin-left: 25px;   
+    cursor: pointer;
+    width: 25px;
+    height: auto;
+}
